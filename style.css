@@ -1,0 +1,22 @@
+h1
+{
+  text-align:center;
+  transform:rotate(360 deg);
+}
+ul{
+  font-weight:bolder;
+}
+@keyframes example {
+  from {background-color: violet;}
+  to {background-color: yellow;}
+  0%{font-size:20px;}
+  50%{font-size:30px;}
+  100%{font-size:20px;}
+}
+body
+{  
+  background-color: violet;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration:infinite
+}
